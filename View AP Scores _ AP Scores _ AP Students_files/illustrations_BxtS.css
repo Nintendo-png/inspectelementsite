@@ -1,0 +1,1626 @@
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/scss/includes/apricot-illustrations.scss ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*!
+ * Apricot-Illustrations
+ * @version 1.0
+ * @author Mitra Assadi
+ * @license
+ * Copyright (c) 2026 The College Board
+ */
+.cb-ilus{
+  position:relative;
+  display:inline-block;
+  width:64px;
+  height:64px;
+}
+.cb-ilus::after{
+  top:calc(50% - (100% - 24px) / 2);
+  left:calc(50% - (100% - 16px) / 2);
+  width:calc(100% - 16px);
+  height:calc(100% - 16px);
+}
+.cb-ilus::after{
+  content:"";
+  position:absolute;
+  display:block;
+  background-repeat:no-repeat;
+}
+.cb-ilus.cb-ilus-shadow::before{
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-position:50% calc(100% - 8px);
+  background-size:32%;
+}
+.cb-ilus.cb-ilus-shadow::after{
+  top:calc(50% - (100% - 16px) / 2);
+}
+.cb-ilus{
+}
+.cb-ilus.cb-ilus-circular{
+  background-repeat:no-repeat;
+  background-position:calc(50% - (100% - 16px) / 2) calc(50% - (100% - 16px) / 2);
+  background-size:calc(100% - 16px) calc(100% - 16px);
+}
+.cb-ilus.cb-ilus-circular::after{
+  top:0 !important;
+}
+.cb-ilus.cb-ilus-circular::before{
+  background-position:50% calc(100% - 16px);
+}
+.cb-ilus-custom-circular{
+  border-radius:50%;
+}
+.cb-ilus-custom-circular.cb-ilus.cb-ilus-96::after{
+  top:calc(50% - (100% - 40px) / 2);
+  left:calc(50% - (100% - 32px) / 2);
+  width:calc(100% - 32px);
+  height:calc(100% - 32px);
+}
+.cb-ilus-custom-circular.cb-ilus.cb-ilus-72::after{
+  top:calc(50% - (100% - 32px) / 2);
+  left:calc(50% - (100% - 24px) / 2);
+  width:calc(100% - 24px);
+  height:calc(100% - 24px);
+}
+.cb-ilus-custom-circular.cb-ilus.cb-ilus-64::after{
+  top:calc(50% - (100% - 28px) / 2);
+  left:calc(50% - (100% - 20px) / 2);
+  width:calc(100% - 20px);
+  height:calc(100% - 20px);
+}
+.cb-ilus.cb-ilus-64{
+  width:64px;
+  height:64px;
+}
+
+.cb-ilus.cb-ilus-72{
+  width:72px;
+  height:72px;
+}
+
+.cb-ilus.cb-ilus-96{
+  width:96px;
+  height:96px;
+}
+@media (min-width: 1px) and (max-width: 767.98px){
+  .cb-ilus-xs-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-xs-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-xs-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1px){
+  .cb-ilus-xs-up-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-xs-up-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-xs-up-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (max-width: 767.98px){
+  .cb-ilus-xs-down-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-xs-down-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-xs-down-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023.98px){
+  .cb-ilus-sm-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-sm-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-sm-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 768px){
+  .cb-ilus-sm-up-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-sm-up-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-sm-up-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (max-width: 1023.98px){
+  .cb-ilus-sm-down-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-sm-down-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-sm-down-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1247.98px){
+  .cb-ilus-md-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-md-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-md-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1024px){
+  .cb-ilus-md-up-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-md-up-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-md-up-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (max-width: 1247.98px){
+  .cb-ilus-md-down-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-md-down-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-md-down-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1248px) and (max-width: 1343.98px){
+  .cb-ilus-lg-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-lg-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-lg-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1248px){
+  .cb-ilus-lg-up-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-lg-up-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-lg-up-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (max-width: 1343.98px){
+  .cb-ilus-lg-down-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-lg-down-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-lg-down-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1344px) and (max-width: 1439.98px){
+  .cb-ilus-xl-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-xl-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-xl-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1344px){
+  .cb-ilus-xl-up-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-xl-up-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-xl-up-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (max-width: 1439.98px){
+  .cb-ilus-xl-down-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-xl-down-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-xl-down-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1727.98px){
+  .cb-ilus-2xl-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-2xl-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-2xl-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1440px){
+  .cb-ilus-2xl-up-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-2xl-up-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-2xl-up-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (max-width: 1727.98px){
+  .cb-ilus-2xl-down-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-2xl-down-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-2xl-down-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1728px){
+  .cb-ilus-3xl-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-3xl-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-3xl-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+@media (min-width: 1728px){
+  .cb-ilus-3xl-up-64{
+    width:64px !important;
+    height:64px !important;
+  }
+  .cb-ilus-3xl-up-72{
+    width:72px !important;
+    height:72px !important;
+  }
+  .cb-ilus-3xl-up-96{
+    width:96px !important;
+    height:96px !important;
+  }
+}
+.cb-ilus-3xl-down-64{
+  width:64px !important;
+  height:64px !important;
+}
+
+.cb-ilus-3xl-down-72{
+  width:72px !important;
+  height:72px !important;
+}
+
+.cb-ilus-3xl-down-96{
+  width:96px !important;
+  height:96px !important;
+}
+.cb-ilus.cb-ilus-accessibility::after{
+  background-image:url(assets/illustrations/core/accessibility.svg);
+}
+.cb-ilus.cb-ilus-acorn::after{
+  background-image:url(assets/illustrations/core/acorn.svg);
+}
+.cb-ilus.cb-ilus-add::after{
+  background-image:url(assets/illustrations/core/add.svg);
+}
+.cb-ilus.cb-ilus-ap::after{
+  background-image:url(assets/illustrations/core/ap.svg);
+}
+.cb-ilus.cb-ilus-apple::after{
+  background-image:url(assets/illustrations/core/apple.svg);
+}
+.cb-ilus.cb-ilus-arrow-right::after{
+  background-image:url(assets/illustrations/core/arrow-right.svg);
+}
+.cb-ilus.cb-ilus-attach::after{
+  background-image:url(assets/illustrations/core/attach.svg);
+}
+.cb-ilus.cb-ilus-award-medal::after{
+  background-image:url(assets/illustrations/core/award-medal.svg);
+}
+.cb-ilus.cb-ilus-award::after{
+  background-image:url(assets/illustrations/core/award.svg);
+}
+.cb-ilus.cb-ilus-bell::after{
+  background-image:url(assets/illustrations/core/bell.svg);
+}
+.cb-ilus.cb-ilus-book-index::after{
+  background-image:url(assets/illustrations/core/book-index.svg);
+}
+.cb-ilus.cb-ilus-book-open::after{
+  background-image:url(assets/illustrations/core/book-open.svg);
+}
+.cb-ilus.cb-ilus-briefcase::after{
+  background-image:url(assets/illustrations/core/briefcase.svg);
+}
+.cb-ilus.cb-ilus-browser-add::after{
+  background-image:url(assets/illustrations/core/browser-add.svg);
+}
+.cb-ilus.cb-ilus-browser-check::after{
+  background-image:url(assets/illustrations/core/browser-check.svg);
+}
+.cb-ilus.cb-ilus-browser-expand::after{
+  background-image:url(assets/illustrations/core/browser-expand.svg);
+}
+.cb-ilus.cb-ilus-browser::after{
+  background-image:url(assets/illustrations/core/browser.svg);
+}
+.cb-ilus.cb-ilus-bullet-list-device::after{
+  background-image:url(assets/illustrations/core/bullet-list-device.svg);
+}
+.cb-ilus.cb-ilus-bullet-list-doc::after{
+  background-image:url(assets/illustrations/core/bullet-list-doc.svg);
+}
+.cb-ilus.cb-ilus-bullet-list::after{
+  background-image:url(assets/illustrations/core/bullet-list.svg);
+}
+.cb-ilus.cb-ilus-calculator::after{
+  background-image:url(assets/illustrations/core/calculator.svg);
+}
+.cb-ilus.cb-ilus-calendar-add::after{
+  background-image:url(assets/illustrations/core/calendar-add.svg);
+}
+.cb-ilus.cb-ilus-calendar-empty::after{
+  background-image:url(assets/illustrations/core/calendar-empty.svg);
+}
+.cb-ilus.cb-ilus-calendar-exclamation::after{
+  background-image:url(assets/illustrations/core/calendar-exclamation.svg);
+}
+.cb-ilus.cb-ilus-calendar-full::after{
+  background-image:url(assets/illustrations/core/calendar-full.svg);
+}
+.cb-ilus.cb-ilus-calendar-save-the-date::after{
+  background-image:url(assets/illustrations/core/calendar-save-the-date.svg);
+}
+.cb-ilus.cb-ilus-cart::after{
+  background-image:url(assets/illustrations/core/cart.svg);
+}
+.cb-ilus.cb-ilus-chat::after{
+  background-image:url(assets/illustrations/core/chat.svg);
+}
+.cb-ilus.cb-ilus-checkbox::after{
+  background-image:url(assets/illustrations/core/checkbox.svg);
+}
+.cb-ilus.cb-ilus-checklist-device::after{
+  background-image:url(assets/illustrations/core/checklist-device.svg);
+}
+.cb-ilus.cb-ilus-checklist-doc::after{
+  background-image:url(assets/illustrations/core/checklist-doc.svg);
+}
+.cb-ilus.cb-ilus-checklist::after{
+  background-image:url(assets/illustrations/core/checklist.svg);
+}
+.cb-ilus.cb-ilus-checkmark::after{
+  background-image:url(assets/illustrations/core/checkmark.svg);
+}
+.cb-ilus.cb-ilus-clock::after{
+  background-image:url(assets/illustrations/core/clock.svg);
+}
+.cb-ilus.cb-ilus-coin::after{
+  background-image:url(assets/illustrations/core/coin.svg);
+}
+.cb-ilus.cb-ilus-column::after{
+  background-image:url(assets/illustrations/core/column.svg);
+}
+.cb-ilus.cb-ilus-compose-alt::after{
+  background-image:url(assets/illustrations/core/compose-alt.svg);
+}
+.cb-ilus.cb-ilus-compose::after{
+  background-image:url(assets/illustrations/core/compose.svg);
+}
+.cb-ilus.cb-ilus-computer-bullet-list::after{
+  background-image:url(assets/illustrations/core/computer-bullet-list.svg);
+}
+.cb-ilus.cb-ilus-computer::after{
+  background-image:url(assets/illustrations/core/computer.svg);
+}
+.cb-ilus.cb-ilus-condense::after{
+  background-image:url(assets/illustrations/core/condense.svg);
+}
+.cb-ilus.cb-ilus-document-award::after{
+  background-image:url(assets/illustrations/core/document-award.svg);
+}
+.cb-ilus.cb-ilus-dollar::after{
+  background-image:url(assets/illustrations/core/dollar.svg);
+}
+.cb-ilus.cb-ilus-download::after{
+  background-image:url(assets/illustrations/core/download.svg);
+}
+.cb-ilus.cb-ilus-error::after{
+  background-image:url(assets/illustrations/core/error.svg);
+}
+.cb-ilus.cb-ilus-exclamation::after{
+  background-image:url(assets/illustrations/core/exclamation.svg);
+}
+.cb-ilus.cb-ilus-expand::after{
+  background-image:url(assets/illustrations/core/expand.svg);
+}
+.cb-ilus.cb-ilus-computer-explore::after{
+  background-image:url(assets/illustrations/core/computer-explore.svg);
+}
+.cb-ilus.cb-ilus-face-bad::after{
+  background-image:url(assets/illustrations/core/face-bad.svg);
+}
+.cb-ilus.cb-ilus-face-excellent::after{
+  background-image:url(assets/illustrations/core/face-excellent.svg);
+}
+.cb-ilus.cb-ilus-face-good::after{
+  background-image:url(assets/illustrations/core/face-good.svg);
+}
+.cb-ilus.cb-ilus-face-neutral::after{
+  background-image:url(assets/illustrations/core/face-neutral.svg);
+}
+.cb-ilus.cb-ilus-face-very-bad::after{
+  background-image:url(assets/illustrations/core/face-very-bad.svg);
+}
+.cb-ilus.cb-ilus-feedback::after{
+  background-image:url(assets/illustrations/core/feedback.svg);
+}
+.cb-ilus.cb-ilus-financial-aid::after{
+  background-image:url(assets/illustrations/core/financial-aid.svg);
+}
+.cb-ilus.cb-ilus-funnel::after{
+  background-image:url(assets/illustrations/core/funnel.svg);
+}
+.cb-ilus.cb-ilus-settings::after{
+  background-image:url(assets/illustrations/core/settings.svg);
+}
+.cb-ilus.cb-ilus-globe::after{
+  background-image:url(assets/illustrations/core/globe.svg);
+}
+.cb-ilus.cb-ilus-graduate::after{
+  background-image:url(assets/illustrations/core/graduate.svg);
+}
+.cb-ilus.cb-ilus-graph-bar::after{
+  background-image:url(assets/illustrations/core/graph-bar.svg);
+}
+.cb-ilus.cb-ilus-heart::after{
+  background-image:url(assets/illustrations/core/heart.svg);
+}
+.cb-ilus.cb-ilus-home::after{
+  background-image:url(assets/illustrations/core/home.svg);
+}
+.cb-ilus.cb-ilus-info::after{
+  background-image:url(assets/illustrations/core/info.svg);
+}
+.cb-ilus.cb-ilus-khan-academy::after{
+  background-image:url(assets/illustrations/core/khan-academy.svg);
+}
+.cb-ilus.cb-ilus-laptop-check::after{
+  background-image:url(assets/illustrations/core/laptop-check.svg);
+}
+.cb-ilus.cb-ilus-laptop-exclamation::after{
+  background-image:url(assets/illustrations/core/laptop-exclamation.svg);
+}
+.cb-ilus.cb-ilus-laptop::after{
+  background-image:url(assets/illustrations/core/laptop.svg);
+}
+.cb-ilus.cb-ilus-light-bulb::after{
+  background-image:url(assets/illustrations/core/light-bulb.svg);
+}
+.cb-ilus.cb-ilus-list-alt::after{
+  background-image:url(assets/illustrations/core/list-alt.svg);
+}
+.cb-ilus.cb-ilus-list-pencil::after{
+  background-image:url(assets/illustrations/core/list-pencil.svg);
+}
+.cb-ilus.cb-ilus-list::after{
+  background-image:url(assets/illustrations/core/list.svg);
+}
+.cb-ilus.cb-ilus-location::after{
+  background-image:url(assets/illustrations/core/location.svg);
+}
+.cb-ilus.cb-ilus-lock::after{
+  background-image:url(assets/illustrations/core/lock.svg);
+}
+.cb-ilus.cb-ilus-mail-compose::after{
+  background-image:url(assets/illustrations/core/mail-compose.svg);
+}
+.cb-ilus.cb-ilus-mail-send::after{
+  background-image:url(assets/illustrations/core/mail-send.svg);
+}
+.cb-ilus.cb-ilus-math-alt::after{
+  background-image:url(assets/illustrations/core/math-alt.svg);
+}
+.cb-ilus.cb-ilus-math-essential::after{
+  background-image:url(assets/illustrations/core/math-essential.svg);
+}
+.cb-ilus.cb-ilus-math::after{
+  background-image:url(assets/illustrations/core/math.svg);
+}
+.cb-ilus.cb-ilus-megaphone::after{
+  background-image:url(assets/illustrations/core/megaphone.svg);
+}
+.cb-ilus.cb-ilus-new-page::after{
+  background-image:url(assets/illustrations/core/new-page.svg);
+}
+.cb-ilus.cb-ilus-information::after{
+  background-image:url(assets/illustrations/core/information.svg);
+}
+.cb-ilus.cb-ilus-note::after{
+  background-image:url(assets/illustrations/core/note.svg);
+}
+.cb-ilus.cb-ilus-notepad-check::after{
+  background-image:url(assets/illustrations/core/notepad-check.svg);
+}
+.cb-ilus.cb-ilus-pages::after{
+  background-image:url(assets/illustrations/core/pages.svg);
+}
+.cb-ilus.cb-ilus-paper-airplane::after{
+  background-image:url(assets/illustrations/core/paper-airplane.svg);
+}
+.cb-ilus.cb-ilus-pause::after{
+  background-image:url(assets/illustrations/core/pause.svg);
+}
+.cb-ilus.cb-ilus-pencil::after{
+  background-image:url(assets/illustrations/core/pencil.svg);
+}
+.cb-ilus.cb-ilus-phone::after{
+  background-image:url(assets/illustrations/core/phone.svg);
+}
+.cb-ilus.cb-ilus-photo::after{
+  background-image:url(assets/illustrations/core/photo.svg);
+}
+.cb-ilus.cb-ilus-play::after{
+  background-image:url(assets/illustrations/core/play.svg);
+}
+.cb-ilus.cb-ilus-practice-alt::after{
+  background-image:url(assets/illustrations/core/practice-alt.svg);
+}
+.cb-ilus.cb-ilus-practice::after{
+  background-image:url(assets/illustrations/core/practice.svg);
+}
+.cb-ilus.cb-ilus-presentation-bar-graph::after{
+  background-image:url(assets/illustrations/core/presentation-bar-graph.svg);
+}
+.cb-ilus.cb-ilus-presentation::after{
+  background-image:url(assets/illustrations/core/presentation.svg);
+}
+.cb-ilus.cb-ilus-print::after{
+  background-image:url(assets/illustrations/core/print.svg);
+}
+.cb-ilus.cb-ilus-question::after{
+  background-image:url(assets/illustrations/core/question.svg);
+}
+.cb-ilus.cb-ilus-quotes::after{
+  background-image:url(assets/illustrations/core/quotes.svg);
+}
+.cb-ilus.cb-ilus-raised-pencil::after{
+  background-image:url(assets/illustrations/core/raised-pencil.svg);
+}
+.cb-ilus.cb-ilus-refresh::after{
+  background-image:url(assets/illustrations/core/refresh.svg);
+}
+.cb-ilus.cb-ilus-remove-page::after{
+  background-image:url(assets/illustrations/core/remove-page.svg);
+}
+.cb-ilus.cb-ilus-remove::after{
+  background-image:url(assets/illustrations/core/remove.svg);
+}
+.cb-ilus.cb-ilus-right-arrow::after{
+  background-image:url(assets/illustrations/core/right-arrow.svg);
+}
+.cb-ilus.cb-ilus-sat::after{
+  background-image:url(assets/illustrations/core/sat.svg);
+}
+.cb-ilus.cb-ilus-school-urban::after{
+  background-image:url(assets/illustrations/core/school-urban.svg);
+}
+.cb-ilus.cb-ilus-school::after{
+  background-image:url(assets/illustrations/core/school.svg);
+}
+.cb-ilus.cb-ilus-science::after{
+  background-image:url(assets/illustrations/core/science.svg);
+}
+.cb-ilus.cb-ilus-scroll::after{
+  background-image:url(assets/illustrations/core/scroll.svg);
+}
+.cb-ilus.cb-ilus-search::after{
+  background-image:url(assets/illustrations/core/search.svg);
+}
+.cb-ilus.cb-ilus-send-scores::after{
+  background-image:url(assets/illustrations/core/send-scores.svg);
+}
+.cb-ilus.cb-ilus-share-alt::after{
+  background-image:url(assets/illustrations/core/share-alt.svg);
+}
+.cb-ilus.cb-ilus-share-link::after{
+  background-image:url(assets/illustrations/core/share-link.svg);
+}
+.cb-ilus.cb-ilus-share::after{
+  background-image:url(assets/illustrations/core/share.svg);
+}
+.cb-ilus.cb-ilus-facebook::after{
+  background-image:url(assets/illustrations/core/facebook.svg);
+}
+.cb-ilus.cb-ilus-instagram::after{
+  background-image:url(assets/illustrations/core/instagram.svg);
+}
+.cb-ilus.cb-ilus-linkedin::after{
+  background-image:url(assets/illustrations/core/linkedin.svg);
+}
+.cb-ilus.cb-ilus-tiktok::after{
+  background-image:url(assets/illustrations/core/tiktok.svg);
+}
+.cb-ilus.cb-ilus-x::after{
+  background-image:url(assets/illustrations/core/x.svg);
+}
+.cb-ilus.cb-ilus-youtube::after{
+  background-image:url(assets/illustrations/core/youtube.svg);
+}
+.cb-ilus.cb-ilus-sound::after{
+  background-image:url(assets/illustrations/core/sound.svg);
+}
+.cb-ilus.cb-ilus-stopwatch::after{
+  background-image:url(assets/illustrations/core/stopwatch.svg);
+}
+.cb-ilus.cb-ilus-submit-photo::after{
+  background-image:url(assets/illustrations/core/submit-photo.svg);
+}
+.cb-ilus.cb-ilus-submit::after{
+  background-image:url(assets/illustrations/core/submit.svg);
+}
+.cb-ilus.cb-ilus-task-complete-alt::after{
+  background-image:url(assets/illustrations/core/task-complete-alt.svg);
+}
+.cb-ilus.cb-ilus-task-complete::after{
+  background-image:url(assets/illustrations/core/task-complete.svg);
+}
+.cb-ilus.cb-ilus-star::after{
+  background-image:url(assets/illustrations/core/star.svg);
+}
+.cb-ilus.cb-ilus-university::after{
+  background-image:url(assets/illustrations/core/university.svg);
+}
+.cb-ilus.cb-ilus-unlock::after{
+  background-image:url(assets/illustrations/core/unlock.svg);
+}
+.cb-ilus.cb-ilus-up-arrow::after{
+  background-image:url(assets/illustrations/core/up-arrow.svg);
+}
+.cb-ilus.cb-ilus-up-down-arrow::after{
+  background-image:url(assets/illustrations/core/up-down-arrow.svg);
+}
+.cb-ilus.cb-ilus-upload::after{
+  background-image:url(assets/illustrations/core/upload.svg);
+}
+.cb-ilus.cb-ilus-user-add::after{
+  background-image:url(assets/illustrations/core/user-add.svg);
+}
+.cb-ilus.cb-ilus-user-approve::after{
+  background-image:url(assets/illustrations/core/user-approve.svg);
+}
+.cb-ilus.cb-ilus-user-remove::after{
+  background-image:url(assets/illustrations/core/user-remove.svg);
+}
+.cb-ilus.cb-ilus-user::after{
+  background-image:url(assets/illustrations/core/user.svg);
+}
+.cb-ilus.cb-ilus-users::after{
+  background-image:url(assets/illustrations/core/users.svg);
+}
+.cb-ilus.cb-ilus-wrench::after{
+  background-image:url(assets/illustrations/core/wrench.svg);
+}
+.cb-ilus.cb-ilus-shadow::before{
+  background-image:url(assets/illustrations/core/shadow.svg);
+}
+.cb-ilus.cb-ilus-circular{
+  background-image:url(assets/illustrations/core/background.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-accessibility::after{
+  background-image:url(assets/illustrations/higher-ed/accessibility.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-acorn::after{
+  background-image:url(assets/illustrations/higher-ed/acorn.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-add::after{
+  background-image:url(assets/illustrations/higher-ed/add.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-ap::after{
+  background-image:url(assets/illustrations/higher-ed/ap.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-apple::after{
+  background-image:url(assets/illustrations/higher-ed/apple.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-arrow-right::after{
+  background-image:url(assets/illustrations/higher-ed/arrow-right.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-attach::after{
+  background-image:url(assets/illustrations/higher-ed/attach.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-award-medal::after{
+  background-image:url(assets/illustrations/higher-ed/award-medal.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-award::after{
+  background-image:url(assets/illustrations/higher-ed/award.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-bell::after{
+  background-image:url(assets/illustrations/higher-ed/bell.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-book-index::after{
+  background-image:url(assets/illustrations/higher-ed/book-index.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-book-open::after{
+  background-image:url(assets/illustrations/higher-ed/book-open.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-briefcase::after{
+  background-image:url(assets/illustrations/higher-ed/briefcase.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-browser-add::after{
+  background-image:url(assets/illustrations/higher-ed/browser-add.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-browser-check::after{
+  background-image:url(assets/illustrations/higher-ed/browser-check.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-browser-expand::after{
+  background-image:url(assets/illustrations/higher-ed/browser-expand.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-browser::after{
+  background-image:url(assets/illustrations/higher-ed/browser.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-bullet-list-device::after{
+  background-image:url(assets/illustrations/higher-ed/bullet-list-device.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-bullet-list-doc::after{
+  background-image:url(assets/illustrations/higher-ed/bullet-list-doc.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-bullet-list::after{
+  background-image:url(assets/illustrations/higher-ed/bullet-list.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-calculator::after{
+  background-image:url(assets/illustrations/higher-ed/calculator.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-calendar-add::after{
+  background-image:url(assets/illustrations/higher-ed/calendar-add.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-calendar-empty::after{
+  background-image:url(assets/illustrations/higher-ed/calendar-empty.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-calendar-exclamation::after{
+  background-image:url(assets/illustrations/higher-ed/calendar-exclamation.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-calendar-full::after{
+  background-image:url(assets/illustrations/higher-ed/calendar-full.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-calendar-save-the-date::after{
+  background-image:url(assets/illustrations/higher-ed/calendar-save-the-date.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-cart::after{
+  background-image:url(assets/illustrations/higher-ed/cart.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-chat::after{
+  background-image:url(assets/illustrations/higher-ed/chat.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-checkbox::after{
+  background-image:url(assets/illustrations/higher-ed/checkbox.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-checklist-device::after{
+  background-image:url(assets/illustrations/higher-ed/checklist-device.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-checklist-doc::after{
+  background-image:url(assets/illustrations/higher-ed/checklist-doc.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-checklist::after{
+  background-image:url(assets/illustrations/higher-ed/checklist.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-checkmark::after{
+  background-image:url(assets/illustrations/higher-ed/checkmark.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-clock::after{
+  background-image:url(assets/illustrations/higher-ed/clock.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-coin::after{
+  background-image:url(assets/illustrations/higher-ed/coin.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-column::after{
+  background-image:url(assets/illustrations/higher-ed/column.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-compose-alt::after{
+  background-image:url(assets/illustrations/higher-ed/compose-alt.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-compose::after{
+  background-image:url(assets/illustrations/higher-ed/compose.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-computer-bullet-list::after{
+  background-image:url(assets/illustrations/higher-ed/computer-bullet-list.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-computer::after{
+  background-image:url(assets/illustrations/higher-ed/computer.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-condense::after{
+  background-image:url(assets/illustrations/higher-ed/condense.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-document-award::after{
+  background-image:url(assets/illustrations/higher-ed/document-award.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-dollar::after{
+  background-image:url(assets/illustrations/higher-ed/dollar.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-download::after{
+  background-image:url(assets/illustrations/higher-ed/download.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-error::after{
+  background-image:url(assets/illustrations/higher-ed/error.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-exclamation::after{
+  background-image:url(assets/illustrations/higher-ed/exclamation.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-expand::after{
+  background-image:url(assets/illustrations/higher-ed/expand.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-computer-explore::after{
+  background-image:url(assets/illustrations/higher-ed/computer-explore.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-face-bad::after{
+  background-image:url(assets/illustrations/higher-ed/face-bad.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-face-excellent::after{
+  background-image:url(assets/illustrations/higher-ed/face-excellent.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-face-good::after{
+  background-image:url(assets/illustrations/higher-ed/face-good.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-face-neutral::after{
+  background-image:url(assets/illustrations/higher-ed/face-neutral.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-face-very-bad::after{
+  background-image:url(assets/illustrations/higher-ed/face-very-bad.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-feedback::after{
+  background-image:url(assets/illustrations/higher-ed/feedback.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-financial-aid::after{
+  background-image:url(assets/illustrations/higher-ed/financial-aid.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-funnel::after{
+  background-image:url(assets/illustrations/higher-ed/funnel.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-settings::after{
+  background-image:url(assets/illustrations/higher-ed/settings.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-globe::after{
+  background-image:url(assets/illustrations/higher-ed/globe.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-graduate::after{
+  background-image:url(assets/illustrations/higher-ed/graduate.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-graph-bar::after{
+  background-image:url(assets/illustrations/higher-ed/graph-bar.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-heart::after{
+  background-image:url(assets/illustrations/higher-ed/heart.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-home::after{
+  background-image:url(assets/illustrations/higher-ed/home.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-info::after{
+  background-image:url(assets/illustrations/higher-ed/info.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-khan-academy::after{
+  background-image:url(assets/illustrations/higher-ed/khan-academy.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-laptop-check::after{
+  background-image:url(assets/illustrations/higher-ed/laptop-check.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-laptop-exclamation::after{
+  background-image:url(assets/illustrations/higher-ed/laptop-exclamation.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-laptop::after{
+  background-image:url(assets/illustrations/higher-ed/laptop.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-light-bulb::after{
+  background-image:url(assets/illustrations/higher-ed/light-bulb.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-list-alt::after{
+  background-image:url(assets/illustrations/higher-ed/list-alt.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-list-pencil::after{
+  background-image:url(assets/illustrations/higher-ed/list-pencil.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-list::after{
+  background-image:url(assets/illustrations/higher-ed/list.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-location::after{
+  background-image:url(assets/illustrations/higher-ed/location.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-lock::after{
+  background-image:url(assets/illustrations/higher-ed/lock.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-mail-compose::after{
+  background-image:url(assets/illustrations/higher-ed/mail-compose.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-mail-send::after{
+  background-image:url(assets/illustrations/higher-ed/mail-send.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-math-alt::after{
+  background-image:url(assets/illustrations/higher-ed/math-alt.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-math-essential::after{
+  background-image:url(assets/illustrations/higher-ed/math-essential.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-math::after{
+  background-image:url(assets/illustrations/higher-ed/math.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-megaphone::after{
+  background-image:url(assets/illustrations/higher-ed/megaphone.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-new-page::after{
+  background-image:url(assets/illustrations/higher-ed/new-page.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-information::after{
+  background-image:url(assets/illustrations/higher-ed/information.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-note::after{
+  background-image:url(assets/illustrations/higher-ed/note.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-notepad-check::after{
+  background-image:url(assets/illustrations/higher-ed/notepad-check.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-pages::after{
+  background-image:url(assets/illustrations/higher-ed/pages.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-paper-airplane::after{
+  background-image:url(assets/illustrations/higher-ed/paper-airplane.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-pause::after{
+  background-image:url(assets/illustrations/higher-ed/pause.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-pencil::after{
+  background-image:url(assets/illustrations/higher-ed/pencil.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-phone::after{
+  background-image:url(assets/illustrations/higher-ed/phone.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-photo::after{
+  background-image:url(assets/illustrations/higher-ed/photo.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-play::after{
+  background-image:url(assets/illustrations/higher-ed/play.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-practice-alt::after{
+  background-image:url(assets/illustrations/higher-ed/practice-alt.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-practice::after{
+  background-image:url(assets/illustrations/higher-ed/practice.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-presentation-bar-graph::after{
+  background-image:url(assets/illustrations/higher-ed/presentation-bar-graph.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-presentation::after{
+  background-image:url(assets/illustrations/higher-ed/presentation.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-print::after{
+  background-image:url(assets/illustrations/higher-ed/print.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-question::after{
+  background-image:url(assets/illustrations/higher-ed/question.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-quotes::after{
+  background-image:url(assets/illustrations/higher-ed/quotes.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-raised-pencil::after{
+  background-image:url(assets/illustrations/higher-ed/raised-pencil.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-refresh::after{
+  background-image:url(assets/illustrations/higher-ed/refresh.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-remove-page::after{
+  background-image:url(assets/illustrations/higher-ed/remove-page.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-remove::after{
+  background-image:url(assets/illustrations/higher-ed/remove.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-right-arrow::after{
+  background-image:url(assets/illustrations/higher-ed/right-arrow.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-sat::after{
+  background-image:url(assets/illustrations/higher-ed/sat.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-school-urban::after{
+  background-image:url(assets/illustrations/higher-ed/school-urban.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-school::after{
+  background-image:url(assets/illustrations/higher-ed/school.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-science::after{
+  background-image:url(assets/illustrations/higher-ed/science.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-scroll::after{
+  background-image:url(assets/illustrations/higher-ed/scroll.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-search::after{
+  background-image:url(assets/illustrations/higher-ed/search.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-send-scores::after{
+  background-image:url(assets/illustrations/higher-ed/send-scores.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-share-alt::after{
+  background-image:url(assets/illustrations/higher-ed/share-alt.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-share-link::after{
+  background-image:url(assets/illustrations/higher-ed/share-link.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-share::after{
+  background-image:url(assets/illustrations/higher-ed/share.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-facebook::after{
+  background-image:url(assets/illustrations/higher-ed/facebook.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-instagram::after{
+  background-image:url(assets/illustrations/higher-ed/instagram.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-linkedin::after{
+  background-image:url(assets/illustrations/higher-ed/linkedin.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-tiktok::after{
+  background-image:url(assets/illustrations/higher-ed/tiktok.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-x::after{
+  background-image:url(assets/illustrations/higher-ed/x.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-youtube::after{
+  background-image:url(assets/illustrations/higher-ed/youtube.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-sound::after{
+  background-image:url(assets/illustrations/higher-ed/sound.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-stopwatch::after{
+  background-image:url(assets/illustrations/higher-ed/stopwatch.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-submit-photo::after{
+  background-image:url(assets/illustrations/higher-ed/submit-photo.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-submit::after{
+  background-image:url(assets/illustrations/higher-ed/submit.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-task-complete-alt::after{
+  background-image:url(assets/illustrations/higher-ed/task-complete-alt.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-task-complete::after{
+  background-image:url(assets/illustrations/higher-ed/task-complete.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-star::after{
+  background-image:url(assets/illustrations/higher-ed/star.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-university::after{
+  background-image:url(assets/illustrations/higher-ed/university.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-unlock::after{
+  background-image:url(assets/illustrations/higher-ed/unlock.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-up-arrow::after{
+  background-image:url(assets/illustrations/higher-ed/up-arrow.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-up-down-arrow::after{
+  background-image:url(assets/illustrations/higher-ed/up-down-arrow.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-upload::after{
+  background-image:url(assets/illustrations/higher-ed/upload.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-user-add::after{
+  background-image:url(assets/illustrations/higher-ed/user-add.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-user-approve::after{
+  background-image:url(assets/illustrations/higher-ed/user-approve.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-user-remove::after{
+  background-image:url(assets/illustrations/higher-ed/user-remove.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-user::after{
+  background-image:url(assets/illustrations/higher-ed/user.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-users::after{
+  background-image:url(assets/illustrations/higher-ed/users.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-wrench::after{
+  background-image:url(assets/illustrations/higher-ed/wrench.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-shadow::before{
+  background-image:url(assets/illustrations/higher-ed/shadow.svg);
+}
+.cb-ilus-higher-ed.cb-ilus-circular{
+  background-image:url(assets/illustrations/higher-ed/background.svg);
+}
+.cb-ilus-k-12.cb-ilus-accessibility::after{
+  background-image:url(assets/illustrations/k-12/accessibility.svg);
+}
+.cb-ilus-k-12.cb-ilus-acorn::after{
+  background-image:url(assets/illustrations/k-12/acorn.svg);
+}
+.cb-ilus-k-12.cb-ilus-add::after{
+  background-image:url(assets/illustrations/k-12/add.svg);
+}
+.cb-ilus-k-12.cb-ilus-ap::after{
+  background-image:url(assets/illustrations/k-12/ap.svg);
+}
+.cb-ilus-k-12.cb-ilus-apple::after{
+  background-image:url(assets/illustrations/k-12/apple.svg);
+}
+.cb-ilus-k-12.cb-ilus-arrow-right::after{
+  background-image:url(assets/illustrations/k-12/arrow-right.svg);
+}
+.cb-ilus-k-12.cb-ilus-attach::after{
+  background-image:url(assets/illustrations/k-12/attach.svg);
+}
+.cb-ilus-k-12.cb-ilus-award-medal::after{
+  background-image:url(assets/illustrations/k-12/award-medal.svg);
+}
+.cb-ilus-k-12.cb-ilus-award::after{
+  background-image:url(assets/illustrations/k-12/award.svg);
+}
+.cb-ilus-k-12.cb-ilus-bell::after{
+  background-image:url(assets/illustrations/k-12/bell.svg);
+}
+.cb-ilus-k-12.cb-ilus-book-index::after{
+  background-image:url(assets/illustrations/k-12/book-index.svg);
+}
+.cb-ilus-k-12.cb-ilus-book-open::after{
+  background-image:url(assets/illustrations/k-12/book-open.svg);
+}
+.cb-ilus-k-12.cb-ilus-briefcase::after{
+  background-image:url(assets/illustrations/k-12/briefcase.svg);
+}
+.cb-ilus-k-12.cb-ilus-browser-add::after{
+  background-image:url(assets/illustrations/k-12/browser-add.svg);
+}
+.cb-ilus-k-12.cb-ilus-browser-check::after{
+  background-image:url(assets/illustrations/k-12/browser-check.svg);
+}
+.cb-ilus-k-12.cb-ilus-browser-expand::after{
+  background-image:url(assets/illustrations/k-12/browser-expand.svg);
+}
+.cb-ilus-k-12.cb-ilus-browser::after{
+  background-image:url(assets/illustrations/k-12/browser.svg);
+}
+.cb-ilus-k-12.cb-ilus-bullet-list-device::after{
+  background-image:url(assets/illustrations/k-12/bullet-list-device.svg);
+}
+.cb-ilus-k-12.cb-ilus-bullet-list-doc::after{
+  background-image:url(assets/illustrations/k-12/bullet-list-doc.svg);
+}
+.cb-ilus-k-12.cb-ilus-bullet-list::after{
+  background-image:url(assets/illustrations/k-12/bullet-list.svg);
+}
+.cb-ilus-k-12.cb-ilus-calculator::after{
+  background-image:url(assets/illustrations/k-12/calculator.svg);
+}
+.cb-ilus-k-12.cb-ilus-calendar-add::after{
+  background-image:url(assets/illustrations/k-12/calendar-add.svg);
+}
+.cb-ilus-k-12.cb-ilus-calendar-empty::after{
+  background-image:url(assets/illustrations/k-12/calendar-empty.svg);
+}
+.cb-ilus-k-12.cb-ilus-calendar-exclamation::after{
+  background-image:url(assets/illustrations/k-12/calendar-exclamation.svg);
+}
+.cb-ilus-k-12.cb-ilus-calendar-full::after{
+  background-image:url(assets/illustrations/k-12/calendar-full.svg);
+}
+.cb-ilus-k-12.cb-ilus-calendar-save-the-date::after{
+  background-image:url(assets/illustrations/k-12/calendar-save-the-date.svg);
+}
+.cb-ilus-k-12.cb-ilus-cart::after{
+  background-image:url(assets/illustrations/k-12/cart.svg);
+}
+.cb-ilus-k-12.cb-ilus-chat::after{
+  background-image:url(assets/illustrations/k-12/chat.svg);
+}
+.cb-ilus-k-12.cb-ilus-checkbox::after{
+  background-image:url(assets/illustrations/k-12/checkbox.svg);
+}
+.cb-ilus-k-12.cb-ilus-checklist-device::after{
+  background-image:url(assets/illustrations/k-12/checklist-device.svg);
+}
+.cb-ilus-k-12.cb-ilus-checklist-doc::after{
+  background-image:url(assets/illustrations/k-12/checklist-doc.svg);
+}
+.cb-ilus-k-12.cb-ilus-checklist::after{
+  background-image:url(assets/illustrations/k-12/checklist.svg);
+}
+.cb-ilus-k-12.cb-ilus-checkmark::after{
+  background-image:url(assets/illustrations/k-12/checkmark.svg);
+}
+.cb-ilus-k-12.cb-ilus-clock::after{
+  background-image:url(assets/illustrations/k-12/clock.svg);
+}
+.cb-ilus-k-12.cb-ilus-coin::after{
+  background-image:url(assets/illustrations/k-12/coin.svg);
+}
+.cb-ilus-k-12.cb-ilus-column::after{
+  background-image:url(assets/illustrations/k-12/column.svg);
+}
+.cb-ilus-k-12.cb-ilus-compose-alt::after{
+  background-image:url(assets/illustrations/k-12/compose-alt.svg);
+}
+.cb-ilus-k-12.cb-ilus-compose::after{
+  background-image:url(assets/illustrations/k-12/compose.svg);
+}
+.cb-ilus-k-12.cb-ilus-computer-bullet-list::after{
+  background-image:url(assets/illustrations/k-12/computer-bullet-list.svg);
+}
+.cb-ilus-k-12.cb-ilus-computer::after{
+  background-image:url(assets/illustrations/k-12/computer.svg);
+}
+.cb-ilus-k-12.cb-ilus-condense::after{
+  background-image:url(assets/illustrations/k-12/condense.svg);
+}
+.cb-ilus-k-12.cb-ilus-document-award::after{
+  background-image:url(assets/illustrations/k-12/document-award.svg);
+}
+.cb-ilus-k-12.cb-ilus-dollar::after{
+  background-image:url(assets/illustrations/k-12/dollar.svg);
+}
+.cb-ilus-k-12.cb-ilus-download::after{
+  background-image:url(assets/illustrations/k-12/download.svg);
+}
+.cb-ilus-k-12.cb-ilus-error::after{
+  background-image:url(assets/illustrations/k-12/error.svg);
+}
+.cb-ilus-k-12.cb-ilus-exclamation::after{
+  background-image:url(assets/illustrations/k-12/exclamation.svg);
+}
+.cb-ilus-k-12.cb-ilus-expand::after{
+  background-image:url(assets/illustrations/k-12/expand.svg);
+}
+.cb-ilus-k-12.cb-ilus-computer-explore::after{
+  background-image:url(assets/illustrations/k-12/computer-explore.svg);
+}
+.cb-ilus-k-12.cb-ilus-face-bad::after{
+  background-image:url(assets/illustrations/k-12/face-bad.svg);
+}
+.cb-ilus-k-12.cb-ilus-face-excellent::after{
+  background-image:url(assets/illustrations/k-12/face-excellent.svg);
+}
+.cb-ilus-k-12.cb-ilus-face-good::after{
+  background-image:url(assets/illustrations/k-12/face-good.svg);
+}
+.cb-ilus-k-12.cb-ilus-face-neutral::after{
+  background-image:url(assets/illustrations/k-12/face-neutral.svg);
+}
+.cb-ilus-k-12.cb-ilus-face-very-bad::after{
+  background-image:url(assets/illustrations/k-12/face-very-bad.svg);
+}
+.cb-ilus-k-12.cb-ilus-feedback::after{
+  background-image:url(assets/illustrations/k-12/feedback.svg);
+}
+.cb-ilus-k-12.cb-ilus-financial-aid::after{
+  background-image:url(assets/illustrations/k-12/financial-aid.svg);
+}
+.cb-ilus-k-12.cb-ilus-funnel::after{
+  background-image:url(assets/illustrations/k-12/funnel.svg);
+}
+.cb-ilus-k-12.cb-ilus-settings::after{
+  background-image:url(assets/illustrations/k-12/settings.svg);
+}
+.cb-ilus-k-12.cb-ilus-globe::after{
+  background-image:url(assets/illustrations/k-12/globe.svg);
+}
+.cb-ilus-k-12.cb-ilus-graduate::after{
+  background-image:url(assets/illustrations/k-12/graduate.svg);
+}
+.cb-ilus-k-12.cb-ilus-graph-bar::after{
+  background-image:url(assets/illustrations/k-12/graph-bar.svg);
+}
+.cb-ilus-k-12.cb-ilus-heart::after{
+  background-image:url(assets/illustrations/k-12/heart.svg);
+}
+.cb-ilus-k-12.cb-ilus-home::after{
+  background-image:url(assets/illustrations/k-12/home.svg);
+}
+.cb-ilus-k-12.cb-ilus-info::after{
+  background-image:url(assets/illustrations/k-12/info.svg);
+}
+.cb-ilus-k-12.cb-ilus-khan-academy::after{
+  background-image:url(assets/illustrations/k-12/khan-academy.svg);
+}
+.cb-ilus-k-12.cb-ilus-laptop-check::after{
+  background-image:url(assets/illustrations/k-12/laptop-check.svg);
+}
+.cb-ilus-k-12.cb-ilus-laptop-exclamation::after{
+  background-image:url(assets/illustrations/k-12/laptop-exclamation.svg);
+}
+.cb-ilus-k-12.cb-ilus-laptop::after{
+  background-image:url(assets/illustrations/k-12/laptop.svg);
+}
+.cb-ilus-k-12.cb-ilus-light-bulb::after{
+  background-image:url(assets/illustrations/k-12/light-bulb.svg);
+}
+.cb-ilus-k-12.cb-ilus-list-alt::after{
+  background-image:url(assets/illustrations/k-12/list-alt.svg);
+}
+.cb-ilus-k-12.cb-ilus-list-pencil::after{
+  background-image:url(assets/illustrations/k-12/list-pencil.svg);
+}
+.cb-ilus-k-12.cb-ilus-list::after{
+  background-image:url(assets/illustrations/k-12/list.svg);
+}
+.cb-ilus-k-12.cb-ilus-location::after{
+  background-image:url(assets/illustrations/k-12/location.svg);
+}
+.cb-ilus-k-12.cb-ilus-lock::after{
+  background-image:url(assets/illustrations/k-12/lock.svg);
+}
+.cb-ilus-k-12.cb-ilus-mail-compose::after{
+  background-image:url(assets/illustrations/k-12/mail-compose.svg);
+}
+.cb-ilus-k-12.cb-ilus-mail-send::after{
+  background-image:url(assets/illustrations/k-12/mail-send.svg);
+}
+.cb-ilus-k-12.cb-ilus-math-alt::after{
+  background-image:url(assets/illustrations/k-12/math-alt.svg);
+}
+.cb-ilus-k-12.cb-ilus-math-essential::after{
+  background-image:url(assets/illustrations/k-12/math-essential.svg);
+}
+.cb-ilus-k-12.cb-ilus-math::after{
+  background-image:url(assets/illustrations/k-12/math.svg);
+}
+.cb-ilus-k-12.cb-ilus-megaphone::after{
+  background-image:url(assets/illustrations/k-12/megaphone.svg);
+}
+.cb-ilus-k-12.cb-ilus-new-page::after{
+  background-image:url(assets/illustrations/k-12/new-page.svg);
+}
+.cb-ilus-k-12.cb-ilus-information::after{
+  background-image:url(assets/illustrations/k-12/information.svg);
+}
+.cb-ilus-k-12.cb-ilus-note::after{
+  background-image:url(assets/illustrations/k-12/note.svg);
+}
+.cb-ilus-k-12.cb-ilus-notepad-check::after{
+  background-image:url(assets/illustrations/k-12/notepad-check.svg);
+}
+.cb-ilus-k-12.cb-ilus-pages::after{
+  background-image:url(assets/illustrations/k-12/pages.svg);
+}
+.cb-ilus-k-12.cb-ilus-paper-airplane::after{
+  background-image:url(assets/illustrations/k-12/paper-airplane.svg);
+}
+.cb-ilus-k-12.cb-ilus-pause::after{
+  background-image:url(assets/illustrations/k-12/pause.svg);
+}
+.cb-ilus-k-12.cb-ilus-pencil::after{
+  background-image:url(assets/illustrations/k-12/pencil.svg);
+}
+.cb-ilus-k-12.cb-ilus-phone::after{
+  background-image:url(assets/illustrations/k-12/phone.svg);
+}
+.cb-ilus-k-12.cb-ilus-photo::after{
+  background-image:url(assets/illustrations/k-12/photo.svg);
+}
+.cb-ilus-k-12.cb-ilus-play::after{
+  background-image:url(assets/illustrations/k-12/play.svg);
+}
+.cb-ilus-k-12.cb-ilus-practice-alt::after{
+  background-image:url(assets/illustrations/k-12/practice-alt.svg);
+}
+.cb-ilus-k-12.cb-ilus-practice::after{
+  background-image:url(assets/illustrations/k-12/practice.svg);
+}
+.cb-ilus-k-12.cb-ilus-presentation-bar-graph::after{
+  background-image:url(assets/illustrations/k-12/presentation-bar-graph.svg);
+}
+.cb-ilus-k-12.cb-ilus-presentation::after{
+  background-image:url(assets/illustrations/k-12/presentation.svg);
+}
+.cb-ilus-k-12.cb-ilus-print::after{
+  background-image:url(assets/illustrations/k-12/print.svg);
+}
+.cb-ilus-k-12.cb-ilus-question::after{
+  background-image:url(assets/illustrations/k-12/question.svg);
+}
+.cb-ilus-k-12.cb-ilus-quotes::after{
+  background-image:url(assets/illustrations/k-12/quotes.svg);
+}
+.cb-ilus-k-12.cb-ilus-raised-pencil::after{
+  background-image:url(assets/illustrations/k-12/raised-pencil.svg);
+}
+.cb-ilus-k-12.cb-ilus-refresh::after{
+  background-image:url(assets/illustrations/k-12/refresh.svg);
+}
+.cb-ilus-k-12.cb-ilus-remove-page::after{
+  background-image:url(assets/illustrations/k-12/remove-page.svg);
+}
+.cb-ilus-k-12.cb-ilus-remove::after{
+  background-image:url(assets/illustrations/k-12/remove.svg);
+}
+.cb-ilus-k-12.cb-ilus-right-arrow::after{
+  background-image:url(assets/illustrations/k-12/right-arrow.svg);
+}
+.cb-ilus-k-12.cb-ilus-sat::after{
+  background-image:url(assets/illustrations/k-12/sat.svg);
+}
+.cb-ilus-k-12.cb-ilus-school-urban::after{
+  background-image:url(assets/illustrations/k-12/school-urban.svg);
+}
+.cb-ilus-k-12.cb-ilus-school::after{
+  background-image:url(assets/illustrations/k-12/school.svg);
+}
+.cb-ilus-k-12.cb-ilus-science::after{
+  background-image:url(assets/illustrations/k-12/science.svg);
+}
+.cb-ilus-k-12.cb-ilus-scroll::after{
+  background-image:url(assets/illustrations/k-12/scroll.svg);
+}
+.cb-ilus-k-12.cb-ilus-search::after{
+  background-image:url(assets/illustrations/k-12/search.svg);
+}
+.cb-ilus-k-12.cb-ilus-send-scores::after{
+  background-image:url(assets/illustrations/k-12/send-scores.svg);
+}
+.cb-ilus-k-12.cb-ilus-share-alt::after{
+  background-image:url(assets/illustrations/k-12/share-alt.svg);
+}
+.cb-ilus-k-12.cb-ilus-share-link::after{
+  background-image:url(assets/illustrations/k-12/share-link.svg);
+}
+.cb-ilus-k-12.cb-ilus-share::after{
+  background-image:url(assets/illustrations/k-12/share.svg);
+}
+.cb-ilus-k-12.cb-ilus-facebook::after{
+  background-image:url(assets/illustrations/k-12/facebook.svg);
+}
+.cb-ilus-k-12.cb-ilus-instagram::after{
+  background-image:url(assets/illustrations/k-12/instagram.svg);
+}
+.cb-ilus-k-12.cb-ilus-linkedin::after{
+  background-image:url(assets/illustrations/k-12/linkedin.svg);
+}
+.cb-ilus-k-12.cb-ilus-tiktok::after{
+  background-image:url(assets/illustrations/k-12/tiktok.svg);
+}
+.cb-ilus-k-12.cb-ilus-x::after{
+  background-image:url(assets/illustrations/k-12/x.svg);
+}
+.cb-ilus-k-12.cb-ilus-youtube::after{
+  background-image:url(assets/illustrations/k-12/youtube.svg);
+}
+.cb-ilus-k-12.cb-ilus-sound::after{
+  background-image:url(assets/illustrations/k-12/sound.svg);
+}
+.cb-ilus-k-12.cb-ilus-stopwatch::after{
+  background-image:url(assets/illustrations/k-12/stopwatch.svg);
+}
+.cb-ilus-k-12.cb-ilus-submit-photo::after{
+  background-image:url(assets/illustrations/k-12/submit-photo.svg);
+}
+.cb-ilus-k-12.cb-ilus-submit::after{
+  background-image:url(assets/illustrations/k-12/submit.svg);
+}
+.cb-ilus-k-12.cb-ilus-task-complete-alt::after{
+  background-image:url(assets/illustrations/k-12/task-complete-alt.svg);
+}
+.cb-ilus-k-12.cb-ilus-task-complete::after{
+  background-image:url(assets/illustrations/k-12/task-complete.svg);
+}
+.cb-ilus-k-12.cb-ilus-star::after{
+  background-image:url(assets/illustrations/k-12/star.svg);
+}
+.cb-ilus-k-12.cb-ilus-university::after{
+  background-image:url(assets/illustrations/k-12/university.svg);
+}
+.cb-ilus-k-12.cb-ilus-unlock::after{
+  background-image:url(assets/illustrations/k-12/unlock.svg);
+}
+.cb-ilus-k-12.cb-ilus-up-arrow::after{
+  background-image:url(assets/illustrations/k-12/up-arrow.svg);
+}
+.cb-ilus-k-12.cb-ilus-up-down-arrow::after{
+  background-image:url(assets/illustrations/k-12/up-down-arrow.svg);
+}
+.cb-ilus-k-12.cb-ilus-upload::after{
+  background-image:url(assets/illustrations/k-12/upload.svg);
+}
+.cb-ilus-k-12.cb-ilus-user-add::after{
+  background-image:url(assets/illustrations/k-12/user-add.svg);
+}
+.cb-ilus-k-12.cb-ilus-user-approve::after{
+  background-image:url(assets/illustrations/k-12/user-approve.svg);
+}
+.cb-ilus-k-12.cb-ilus-user-remove::after{
+  background-image:url(assets/illustrations/k-12/user-remove.svg);
+}
+.cb-ilus-k-12.cb-ilus-user::after{
+  background-image:url(assets/illustrations/k-12/user.svg);
+}
+.cb-ilus-k-12.cb-ilus-users::after{
+  background-image:url(assets/illustrations/k-12/users.svg);
+}
+.cb-ilus-k-12.cb-ilus-wrench::after{
+  background-image:url(assets/illustrations/k-12/wrench.svg);
+}
+.cb-ilus-k-12.cb-ilus-shadow::before{
+  background-image:url(assets/illustrations/k-12/shadow.svg);
+}
+.cb-ilus-k-12.cb-ilus-circular{
+  background-image:url(assets/illustrations/k-12/background.svg);
+}
+
+/*# sourceMappingURL=illustrations.css.map*/
